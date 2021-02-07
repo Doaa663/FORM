@@ -1,0 +1,179 @@
+/*Start Global rules */
+body ,html {
+    width: auto !important;
+    overflow-x: hidden !important ;
+}
+body {
+
+    height: 4000px;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scrolled{
+   background-color:rgba(0,0,0 ,0.8) ;  
+}
+
+.header {
+ 
+    background: url(/imgs/w2.jpg)
+        no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    color: #FFF;
+}
+.header .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:  rgba(0,0,0, 0.7)
+}
+.centering-vh{
+    margin-top: 25vh;
+}
+.header h1  {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.header h1 span {
+    font-weight: normal;
+    color: #ff8b38 ;
+  
+}
+
+.header  h1 ~ .lead  {
+    font-size: 30px;
+    
+}
+.header  h1 ~ .lead:after {
+    content: '' ;
+    display: block ;
+    width: 70px ;
+    height: 3px ;
+    background: #fff;
+    margin: 25px 0px;     
+}
+.header  h1 ~ p:nth-child(3){
+    font-weight: 700;
+    font-family: Tahoma;
+}
+.header  button {
+     background :transparent ;
+    padding: 5px 15px;
+    border: 2px solid #FFF;
+    margin-top: 20px;
+    
+}
+.header form {
+  width: 360px;
+    background: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+  .form-control {
+ 
+      border: none;
+      border-bottom: 1px solid #CCC; 
+      border-radius: 0;
+      box-shadow: none;
+      width: 80%;
+      margin: 0 auto 30px ;
+    
+}
+.header form .btn{
+    background: #ff8b38;
+    padding: 10px;
+}
+
+.header form  h2 {
+    background-color: #F5F5F5;
+    color: #333;
+    font-size: 19px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 0 ;
+    margin-bottom: 30px;
+    
+}
+
+.header form  h2 span {
+    color:#ff8b38;
+    
+}
+
+
+/*End header*/
+/*Social*/
+.social-section {
+    padding: 15px;
+  background: #FFF;
+    -webkit-box-shadow: 10px 3px 5px #CCC;
+    -o-box-shadow: 10px 3px 5px #CCC;
+    -moz-box-shadow: 10px 3px 5px #CCC;
+  box-shadow: 10px 3px 5px #CCC;
+   color: #CCC;
+    
+}
+.social-section h4 {
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #333;
+}
+.social-section p{
+
+    line-height: 1.4;
+    color: #999;
+    
+    
+}
+.social-section i {
+      color: #CCC;
+      margin: 10px 15px;
+    -webkit-transition  :all .3s ease-in-out;
+    -moz-transition  :all .3s ease-in-out;
+   transition  :all .3s ease-in-out;
+    cursor: pointer;
+    
+}
+.social-section i:nth-child(1):hover {
+    color: blue;
+}.social-section i:nth-child(2):hover {
+    color: skyblue;
+}.social-section i:nth-child(3):hover {
+    color: darkred;
+}.social-section i:nth-child(4):hover {
+    color: red;
+}.social-section i:nth-child(5):hover {
+    color: orangered;
+}
+.social-section i:nth-child(6):hover {
+    color: orangered;
+}.social-section i:nth-child(7):hover {
+    color: orange;
+}
+
+/*Social*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
